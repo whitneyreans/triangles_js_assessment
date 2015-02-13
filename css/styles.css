@@ -2,3 +2,80 @@
   display: none;
 
 }
+
+body {
+  background-image: url("/Users/Guest/Desktop/triangles/css/bg.jpg");
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.header2 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.container {
+  background:rgb(255, 251, 209);
+  background:rgba(255, 251, 209, 0.60);
+  border-radius: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ed2676;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ed2676;
+	box-shadow:inset 0px 1px 0px 0px #ed2676;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fa2569), color-stop(1, #800057) );
+	background:-moz-linear-gradient( center top, #fa2569 5%, #800057 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa2569', endColorstr='#800057');
+	background-color:#fa2569;
+	-webkit-border-top-left-radius:37px;
+	-moz-border-radius-topleft:37px;
+	border-top-left-radius:37px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:37px;
+	-moz-border-radius-bottomright:37px;
+	border-bottom-right-radius:37px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #757575;
+	display:inline-block;
+	color:#f4f5eb;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #9e1d66;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #800057), color-stop(1, #fa2569) );
+	background:-moz-linear-gradient( center top, #800057 5%, #fa2569 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#800057', endColorstr='#fa2569');
+	background-color:#800057;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
