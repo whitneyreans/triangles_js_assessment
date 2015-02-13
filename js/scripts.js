@@ -14,9 +14,9 @@ var triangle = function(side1, side2, side3) {
 
 $(document).ready(function() {
   $("form#triangles").submit(function(event) {
-    var side1 = $("input#side1").val();
-    var side2 = $("input#side2").val();
-    var side3 = $("input#side3").val();
+    var side1 = parseInt($("input#side1").val());
+    var side2 = parseInt($("input#side2").val());
+    var side3 = parseInt($("input#side3").val());
     var result = triangle(side1, side2, side3);
 
     if (result === "not a triangle") {
